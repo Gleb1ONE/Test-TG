@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Attraction : MonoBehaviour
 {
-    public GameObject sphere;
+    [SerializeField] private GameObject sphere;
     public float force = 5f;
     private Vector3 directionSphere;
     private Rigidbody rb;

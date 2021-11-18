@@ -6,7 +6,7 @@ public class Collisions : MonoBehaviour
 {
 
     public float force = 500f;
-    public GameObject obj;
+    [SerializeField] private GameObject obj;
     private Vector3 directionOfImpact;
     private Rigidbody rb;
 

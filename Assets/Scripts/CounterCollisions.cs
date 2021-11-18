@@ -6,9 +6,9 @@ using UnityEngine.UI;
 public class CounterCollisions: MonoBehaviour
 {
 
-    public int counter;
-    public Text countText;
-    public Button buttonReset;
+    private int counter;
+    [SerializeField] private Text countText;
+    [SerializeField] private Button buttonReset;
     private bool flag;
 
 

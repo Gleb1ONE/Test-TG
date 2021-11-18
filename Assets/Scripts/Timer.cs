@@ -7,8 +7,8 @@ using UnityEngine.UI;
 public class Timer : MonoBehaviour
 {
     private int sec = 0;
-    public Text timerText;
-    public Button resetButton;
+    [SerializeField] private Text timerText;
+    [SerializeField] private Button resetButton;
 
 
     void Start()
